@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+body {
+    background: #1c1617;
+}
+
+.full, .forpicter {
+    height: 350px;
+}
+
+.full {
+    margin: 50px;
+    width: 900px;
+    background: #ffffff;
+}
+
+.forpicter {
+    width: 315px;
+    background: url(../img/huxtaburger.jpg);
+    background-size: cover;
+    float: left;  
+}
+
+.textburger {
+    position: relative;
+    background: #000000;
+    color: #ffffff;
+    top: 140px;
+    right: 7px;    
+    text-align: center;
+}
+
+.textburger > h1{
+    font-size: 50px;
+}
+
+b {
+    color: yellow;
+}
+
+.menu{
+    padding: 15px 0;
+    width: 585px;
+    text-align: center;
+    float: left;
+}
+
+.element{
+    width: 50%;
+    float: left;
+    padding-top: 35px;
+}
+
+.element p{
+    font-family: Arial;
+    color: #918f8f;
+}
+
+hr{
+    margin-top: 10px;
+    border: none;
+    background: #dbdbdb;
+    color: #dbdbdb;
+    height: 4px;
+    width: 200px;
+    position: relative;
+    left: 50px
+}
+
+#forbutton{
+    position: relative;
+    top: 40px;
+    left:  220px;
+}
+
+div > button{
+    padding: 15px;
+    font-size: 20px;
+    background: #000000;
+    color: #ffffff;  
+}
