@@ -1,0 +1,73 @@
+.calcularoe {
+    width: 260px;
+    height: 400px;
+    border: solid 3px #5fa09d;
+    border-radius: 10px;
+}
+
+.header{
+    position: relative;
+    top:10px;
+    font-family: Arial;
+    text-align: right;
+    padding-right: 10px;
+    background: #5fa09d;
+    line-height: 35px;
+    color: white;
+}
+
+.butonoff{
+    position: relative;
+    width:90px;
+    height:35px;
+    top:30px;
+    left:160px;
+    background: #5fa09d;
+    border: none;
+}
+
+.forinput{
+    position: relative;
+    top:20px;
+    left:5px;
+    width: 240px;
+    height:30px;
+    border: solid 3px #5fa09d;
+    border-radius: 5px;
+    text-align: right;
+    color: #5fa09d;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.board{
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+
+div > button{
+    width:50px;
+    height:50px;
+    margin: 5px;
+    background: #fff;
+    border: solid 3px #5fa09d;
+    border-radius: 8px;
+    color: #5fa09d;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.butonoff:hover{
+    background: green;
+}
+.butonoff:active{
+    background: aqua;
+}
+div > button:hover{
+    background: green;
+}
+div > button:active{
+    background: aqua;
+}
