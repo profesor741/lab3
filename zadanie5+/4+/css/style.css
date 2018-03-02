@@ -1,0 +1,73 @@
+table{
+    margin: 20px;
+    float: left;
+}
+
+tbody{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #8385a8;
+    font-size: 20px;    
+}
+
+td{
+    padding: 15px 10px;
+}
+
+.greenheader td, .orangeheader td, .redheader td{
+    width: 220px;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.greenheader td {
+    background-color: #12967d;
+    border-bottom: 10px solid #138c75; 
+}
+
+.greenfooter td{
+    border-top: 3px dotted #dbd9d9;
+    border-bottom: 10px solid #12967d; 
+}
+
+.orangeheader td {
+    background-color: #ea9610;
+    border-bottom: 10px solid #cc8008; 
+}
+
+.orangefooter td{
+    border-top: 3px dotted #dbd9d9;
+    border-bottom: 10px solid #ea9610; 
+}
+
+.redheader td {
+    background-color: #bc382b;
+    border-bottom: 10px solid #9e2b22; 
+}
+
+.redfooter td{
+    border-top: 3px dotted #dbd9d9;
+    border-bottom: 10px solid #bc382b; 
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.greenbutton {
+    background-color: #12967d; 
+}
+
+.orangebutton {
+    background-color: #ea9610;
+}
+
+.redbutton {
+    background-color: #bc382b;
+}
